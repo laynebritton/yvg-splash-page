@@ -56,7 +56,11 @@
               <a target="_" href="https://discord.gg/GG3RW5zvN4" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Join our Discord</a>
               <a id="google-form" href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Register now</a>
 
-                <iframe id="google-form-frame" class="hide-element" src="https://forms.gle/4uoDYLEFwChN5pTS9" width="760" height="760"><a target="_" href="https://forms.gle/4uoDYLEFwChN5pTS9">Click here if the form did not load</a></iframe>
+                <!-- <iframe id="google-form-frame" class="hide-element" src="https://forms.gle/4uoDYLEFwChN5pTS9" width="760" height="760"><a target="_" href="https://forms.gle/4uoDYLEFwChN5pTS9">Click here if the form did not load</a></iframe> -->
+                <object id="google-form-frame" class="hide-element" data="https://forms.gle/4uoDYLEFwChN5pTS9" width="760" height="760">
+                  <embed src="https://forms.gle/4uoDYLEFwChN5pTS9" width="600" height="400"> </embed>
+                  <a target="_" href="https://forms.gle/4uoDYLEFwChN5pTS9">Click here if the form did not load</a>                
+                </object>
                 <script type="text/javascript">
                     $('#google-form').click(function(){
                       if($("#google-form-frame").hasClass("hide-element"))
